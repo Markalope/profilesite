@@ -111,9 +111,13 @@ a:hover {
 }
 
 .projectimage {
-  flex-shrink: 2;
-  max-width: 500px;
+  background-size: contain;
+  background-size: cover;
   border: 1px solid white;
+}
+
+.projectimage img {
+  max-width: 100%;
 }
 
 .topnavbar {
