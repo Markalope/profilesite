@@ -82,7 +82,8 @@ a:hover {
 }
 
 .projects {
-  background-color: $middle-grey;
+  background-color:$middle-grey;
+  background-image: url("black-orchid.png");
   text-align: center;
 }
 
@@ -117,14 +118,21 @@ a:hover {
 }
 
 .projecttext {
+  display: flex;
   max-width: 500px;
-  border: 1px solid white;
+  background-color: $middle-grey;
+
+}
+
+.projectcontents
+{
+  align-self: center;
+  justify-self: center;
 }
 
 .projectimage {
   background-size: contain;
   background-size: cover;
-  border: 1px solid white;
 }
 
 .projectimage img {
