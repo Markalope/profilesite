@@ -89,10 +89,20 @@ a:hover {
   color: #FFCC00;
 }
 
+.projects h3 {
+  padding-top: 5%;
+}
+
 .projects p {
   background-color: #67696E;
+  padding-right: 3%;
   color: white;
   text-align: center;
+}
+
+.projectcontainer {
+  display: flex;
+  justify-content: center;
 }
 
 .projecttext {
@@ -101,6 +111,7 @@ a:hover {
 }
 
 .projectimage {
+  flex-shrink: 2;
   max-width: 500px;
   border: 1px solid white;
 }
