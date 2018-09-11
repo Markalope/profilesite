@@ -23,6 +23,14 @@ h2 {
   margin: 0;
 }
 
+h3 {
+  font-family: "Dosis", sans-serif;
+  color: white;
+  font-size: 1.8em;
+  font-weight: 600;
+  margin: 0;
+}
+
 .header {
   display: grid;
   text-align: center;
@@ -64,15 +72,52 @@ a:hover {
 }
 
 .projects {
-  background-color: #738D9C;
+  background-color: #67696E;
   text-align: center;
 }
 
-.topnavbar, .footer {
+.techicons {
+  font-size: 2.2em;
+}
+
+.projects a {
+  color: white;
+  text-decoration: none;
+}
+
+.projects a:hover {
+  color: #FFCC00;
+}
+
+.projects p {
+  background-color: #67696E;
+  color: white;
+  text-align: center;
+}
+
+.projecttext {
+  max-width: 500px;
+  border: 1px solid white;
+}
+
+.projectimage {
+  max-width: 500px;
+  border: 1px solid white;
+}
+
+.topnavbar {
   text-align: right;
   padding-top: 10px;
   padding-bottom: 10px;
   position: fixed;
+  background: #F4EEE2;
+  width: 100%;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background: #F4EEE2;
   width: 100%;
 }
