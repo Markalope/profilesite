@@ -1,21 +1,14 @@
-$middle-grey: #67696E;
-$light-cool-grey: #738D9C;
-$cream: #F4EEE2;
-$dark-cool-grey: #354751;
-$accent-gold: #FFCC00;
-
-
 p {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-size: 20px;
   font-weight: 400;
   line-height: 1.4em;
-  color: $dark-cool-grey;
+  color: #354751;
 }
 
 h1 {
-  font-family: 'Dosis', sans-serif;
-  color: $dark-cool-grey;
+  font-family: "Dosis", sans-serif;
+  color: #354751;
   margin: 0;
   font-size: 4.8em;
   font-weight: 600;
@@ -23,14 +16,12 @@ h1 {
 }
 
 h2 {
-  font-family: 'Dosis', sans-serif;
-  color: $dark-cool-grey;
+  font-family: "Dosis", sans-serif;
+  color: #354751;
   font-size: 2.2em;
   font-weight: 600;
   margin: 0;
 }
-
-
 
 .header {
   text-align: center;
@@ -46,7 +37,7 @@ h2 {
 }
 
 .projects {
-  background-color: $light-cool-grey;
+  background-color: #738D9C;
   text-align: center;
   color: white;
 }
@@ -55,7 +46,7 @@ h2 {
   text-align: right;
   padding-left: 5%;
   padding-right: 5%;
-  background: $cream;
+  background: #F4EEE2;
 }
 
 .topnavbar .icons-links {
@@ -63,9 +54,11 @@ h2 {
 }
 
 a {
-  color: $dark-cool-grey;
+  color: #354751;
 }
 
 a:hover {
-  color: $accent-gold;
+  color: #FFCC00;
 }
+
+/*# sourceMappingURL=style.css.map */
