@@ -17,14 +17,22 @@ h1 {
 
 h2 {
   font-family: "Dosis", sans-serif;
-  color: #354751;
+  color: white;
   font-size: 2.2em;
   font-weight: 600;
   margin: 0;
 }
 
 .header {
+  display: grid;
   text-align: center;
+  background-image: url("header.jpg");
+  min-height: 400px;
+}
+
+.headercontents {
+  align-self: center;
+  justify-self: center;
 }
 
 .icons-links {
@@ -32,32 +40,54 @@ h2 {
   font-size: 2em;
 }
 
+.icons-links a {
+  color: white;
+}
+
+a:hover {
+  color: #FFCC00;
+}
+
 .bio {
   text-align: center;
+  background-color: #738D9C;
+  padding: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  line-height: 1.8em;
+}
+
+.bio > p {
+  color: white;
+  font-weight: 400;
+  font-size: 1.4em;
 }
 
 .projects {
   background-color: #738D9C;
   text-align: center;
-  color: white;
 }
 
 .topnavbar, .footer {
   text-align: right;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: fixed;
   background: #F4EEE2;
+  width: 100%;
 }
 
 .topnavbar .icons-links {
-  font-size: 1em;
+  font-size: 1.2em;
+  margin-top: 0;
+  margin-right: 20px;
 }
 
-a {
+.topnavbar .icons-links a {
   color: #354751;
 }
 
-a:hover {
+.topnavbar .icons-links a:hover {
   color: #FFCC00;
 }
 
