@@ -144,20 +144,6 @@ a:hover {
   width: 100%;
 }
 
-.footer {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  background: #F4EEE2;
-  width: 100%;
-}
-
-.footer p {
-  font-size: 1em;
-  padding-left: 5%;
-  padding-right: 5%;
-}
-
 .topnavbar .icons-links {
   font-size: 1.2em;
   margin-top: 0;
@@ -170,6 +156,20 @@ a:hover {
 
 .topnavbar .icons-links a:hover {
   color: #FFCC00;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: #F4EEE2;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1em;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /*# sourceMappingURL=style.css.map */

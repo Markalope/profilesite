@@ -4,7 +4,6 @@ $cream: #F4EEE2;
 $dark-cool-grey: #354751;
 $accent-gold: #FFCC00;
 
-
 p {
   font-family: 'Dosis', sans-serif;
   font-size: 20px;
@@ -151,27 +150,12 @@ a:hover {
   max-width: 100%;
 }
 
-
 .topnavbar {
   text-align: right;
   display: block;
    position: fixed;
   background: $cream;
   width: 100%;
-}
-
-.footer {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  background: $cream;
-  width: 100%;
-}
-
-.footer p {
-  font-size: 1em;
-  padding-left: 5%;
-  padding-right: 5%;
 }
 
 .topnavbar .icons-links {
@@ -186,4 +170,18 @@ a:hover {
 
 .topnavbar .icons-links a:hover {
   color: $accent-gold;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background: $cream;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 1em;
+  padding-left: 5%;
+  padding-right: 5%;
 }
