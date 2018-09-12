@@ -95,21 +95,31 @@ a:hover {
 }
 
 .projects p {
-  background-color: #67696E;
   padding-right: 3%;
   color: white;
   text-align: center;
 }
 
-.projectcontainer {
+.projectcontainer-right {
   display: flex;
   justify-content: center;
 }
 
-.projecttext {
+.projectcontainer-left {
+  display: flex;
+  justify-content: center;
+}
+
+.projecttext-left {
   display: flex;
   max-width: 500px;
   background-color: #67696E;
+}
+
+.projecttext-right {
+  display: flex;
+  max-width: 500px;
+  background-color: #738D9C;
 }
 
 .projectcontents {
@@ -128,8 +138,7 @@ a:hover {
 
 .topnavbar {
   text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: block;
   position: fixed;
   background: #F4EEE2;
   width: 100%;
@@ -138,9 +147,15 @@ a:hover {
 .footer {
   text-align: center;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   background: #F4EEE2;
   width: 100%;
+}
+
+.footer p {
+  font-size: 1em;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .topnavbar .icons-links {
